@@ -1,0 +1,281 @@
+:root {
+  /* Primitive-collection */
+  /* Gray */
+  --gpui-color-white: #ffffff;
+  --gpui-color-black: #000000;
+
+  --gpui-color-gray-50: oklch(0.985 0 0);
+  --gpui-color-gray-100: oklch(0.97 0 0);
+  --gpui-color-gray-200: oklch(0.955 0 0);
+  --gpui-color-gray-300: oklch(0.88 0 0);
+  --gpui-color-gray-400: oklch(0.7 0 0);
+  --gpui-color-gray-500: oklch(0.6167 0 0);
+  --gpui-color-gray-600: oklch(0.44 0 0);
+  --gpui-color-gray-700: oklch(0.37 0 0);
+  --gpui-color-gray-800: oklch(0.27 0 0);
+  --gpui-color-gray-900: oklch(0.1867 0 0);
+  --gpui-color-gray-950: oklch(0.145 0 0);
+
+  /* Pink */
+  --gpui-color-pink-50: oklch(0.97 0.014 0) ️;
+  --gpui-color-pink-100: oklch(0.93 0.034 0);
+  --gpui-color-pink-200: oklch(0.86 0.074 0);
+  --gpui-color-pink-300: oklch(0.81 0.114 0);
+  --gpui-color-pink-400: oklch(0.75 0.164 0);
+  --gpui-color-pink-500: oklch(0.7 0.204 0);
+  --gpui-color-pink-600: oklch(0.64 0.244 0);
+  --gpui-color-pink-700: oklch(0.54 0.214 0);
+  --gpui-color-pink-800: oklch(0.43 0.174 0);
+  --gpui-color-pink-900: oklch(0.35 0.14 0);
+  --gpui-color-pink-950: oklch(0.3 0.11 0);
+
+  /* Red */
+  --gpui-color-red-50: oklch(0.97 0.014 30);
+  --gpui-color-red-100: oklch(0.93 0.03 30);
+  --gpui-color-red-200: oklch(0.9 0.044 30);
+  --gpui-color-red-300: oklch(0.84 0.084 30);
+  --gpui-color-red-400: oklch(0.77 0.13 30);
+  --gpui-color-red-500: oklch(0.67 0.21 30);
+  --gpui-color-red-600: oklch(0.6 0.2 30);
+  --gpui-color-red-700: oklch(0.45 0.18 30);
+  --gpui-color-red-800: oklch(0.4 0.14 30);
+  --gpui-color-red-900: oklch(0.32 0.12 30);
+  --gpui-color-red-950: oklch(0.27 0.1 30);
+
+  /* Orange */
+  --gpui-color-orange-50: oklch(0.97 0.014 60);
+  --gpui-color-orange-100: oklch(0.94 0.034 60);
+  --gpui-color-orange-200: oklch(0.91 0.054 60);
+  --gpui-color-orange-300: oklch(0.87 0.084 60);
+  --gpui-color-orange-400: oklch(0.82 0.104 60);
+  --gpui-color-orange-500: oklch(0.77 0.144 60);
+  --gpui-color-orange-600: oklch(0.7 0.16 60);
+  --gpui-color-orange-700: oklch(0.53 0.12 60);
+  --gpui-color-orange-800: oklch(0.57 0.13 60);
+  --gpui-color-orange-900: oklch(0.35 0.09 50);
+  --gpui-color-orange-950: oklch(0.3 0.06 60);
+
+  /* Green */
+  --gpui-color-green-50: oklch(0.97 0.014 160);
+  --gpui-color-green-100: oklch(0.96 0.044 160);
+  --gpui-color-green-200: oklch(0.94 0.084 160);
+  --gpui-color-green-300: oklch(0.9 0.134 160);
+  --gpui-color-green-400: oklch(0.78 0.174 160);
+  --gpui-color-green-500: oklch(0.69 0.15 160);
+  --gpui-color-green-600: oklch(0.59 0.13 160);
+  --gpui-color-green-700: oklch(0.51 0.11 160);
+  --gpui-color-green-800: oklch(0.45 0.1 160);
+  --gpui-color-green-900: oklch(0.36 0.08 160);
+  --gpui-color-green-950: oklch(0.3 0.06 160);
+
+  /* Blue */
+  --gpui-color-blue-50: oklch(0.97 0.014 240);
+  --gpui-color-blue-100: oklch(0.93 0.034 240);
+  --gpui-color-blue-200: oklch(0.9 0.054 240);
+  --gpui-color-blue-300: oklch(0.83 0.094 240);
+  --gpui-color-blue-400: oklch(0.71 0.16 240);
+  --gpui-color-blue-500: oklch(0.65 0.14 240);
+  --gpui-color-blue-600: oklch(0.59 0.13 240);
+  --gpui-color-blue-700: oklch(0.53 0.12 240);
+  --gpui-color-blue-800: oklch(0.44 0.1 240);
+  --gpui-color-blue-900: oklch(0.36 0.08 240);
+  --gpui-color-blue-950: oklch(0.3 0.06 240);
+
+  /* Purple */
+  --gpui-color-purple-50: oklch(0.97 0.014 300);
+  --gpui-color-purple-100: oklch(0.93 0.034 300);
+  --gpui-color-purple-200: oklch(0.9 0.054 300);
+  --gpui-color-purple-300: oklch(0.83 0.084 300);
+  --gpui-color-purple-400: oklch(0.74 0.144 300);
+  --gpui-color-purple-500: oklch(0.64 0.22 300);
+  --gpui-color-purple-600: oklch(0.51 0.22 300);
+  --gpui-color-purple-700: oklch(0.42 0.2 300);
+  --gpui-color-purple-800: oklch(0.36 0.18 300);
+  --gpui-color-purple-900: oklch(0.32 0.12 300);
+  --gpui-color-purple-950: oklch(0.25 0.13 300);
+
+  /* Palette-orange */
+  --orange-base: oklch(70% 0.18 55);
+  --orange-light: oklch(from var(--orange-base) calc(l + 0.15) c h);
+  --orange-dark: oklch(from var(--orange-base) calc(l - 0.15) c h);
+
+  /* Palette-green */
+  --green-base: oklch(65% 0.2 150);
+  --green-light: oklch(from var(--green-base) calc(l + 0.15) c h);
+  --green-dark: oklch(from var(--green-base) calc(l - 0.15) c h);
+
+  /* Palette-purple */
+  --purple-base: oklch(55% 0.22 300);
+  --purple-light: oklch(from var(--purple-base) calc(l + 0.15) c h);
+  --purple-dark: oklch(from var(--purple-base) calc(l - 0.15) c h);
+
+  --gpui-color-primary-50: var(--gpui-color-red-50);
+  --gpui-color-primary-100: var(--gpui-color-red-100);
+  --gpui-color-primary-200: var(--gpui-color-red-200);
+  --gpui-color-primary-300: var(--gpui-color-red-300);
+  --gpui-color-primary-400: var(--gpui-color-red-400);
+  --gpui-color-primary-500: var(--gpui-color-red-500);
+  --gpui-color-primary-600: var(--gpui-color-red-600);
+  --gpui-color-primary-700: var(--gpui-color-red-700);
+  --gpui-color-primary-800: var(--gpui-color-red-800);
+  --gpui-color-primary-900: var(--gpui-color-red-900);
+  --gpui-color-primary-950: var(--gpui-color-red-950);
+
+  --gpui-font-family-main: "Inter", sans-serif;
+  --gpui-font-family-title: "Inter", sans-serif;
+
+  --gpui-font-weight-regular: 400;
+  --gpui-font-weight-medium: 500;
+  --gpui-font-weight-semibold: 600;
+  --gpui-font-weight-bold: 700;
+
+  --gpui-font-display-md-semibold: var(--gpui-font-weight-semibold) 36px/44px var(--gpui-font-family-title);
+
+  --gpui-font-display-xs-semibold: var(--gpui-font-weight-semibold) 24px/32px var(--gpui-font-family-title);
+  /* --gpui-font-heading-2: var(--gpui-font-weight-bold) 40px/48px
+    var(--gpui-font-family-title);
+  --gpui-font-heading-3: var(--gpui-font-weight-bold) 32px/40px
+    var(--gpui-font-family-title);
+  --gpui-font-heading-4: var(--gpui-font-weight-bold) 28px/32px
+    var(--gpui-font-family-title);
+  --gpui-font-heading-5: var(--gpui-font-weight-bold) 0px/56px
+    var(--gpui-font-family-title);
+  --gpui-font-heading-6: var(--gpui-font-weight-bold) 0px/56px
+    var(--gpui-font-family-title); */
+
+  --gpui-font-text-xl-regular: var(--gpui-font-weight-regular) 20px/32px var(--gpui-font-family-main);
+  --gpui-font-text-xl-medium: var(--gpui-font-weight-medium) 20px/32px var(--gpui-font-family-main);
+  --gpui-font-text-xl-semibold: var(--gpui-font-weight-semibold) 20px/32px var(--gpui-font-family-main);
+  --gpui-font-text-xl-bold: var(--gpui-font-weight-bold) 20px/32px var(--gpui-font-family-main);
+
+  --gpui-font-text-lg-regular: var(--gpui-font-weight-regular) 18px/28px var(--gpui-font-family-main);
+  --gpui-font-text-lg-medium: var(--gpui-font-weight-medium) 18px/28px var(--gpui-font-family-main);
+  --gpui-font-text-lg-semibold: var(--gpui-font-weight-semibold) 18px/28px var(--gpui-font-family-main);
+  --gpui-font-text-lg-bold: var(--gpui-font-weight-bold) 18px/28px var(--gpui-font-family-main);
+
+  --gpui-font-text-md-regular: var(--gpui-font-weight-regular) 16px/24px var(--gpui-font-family-main);
+  --gpui-font-text-md-medium: var(--gpui-font-weight-medium) 16px/24px var(--gpui-font-family-main);
+  --gpui-font-text-md-semibold: var(--gpui-font-weight-semibold) 16px/24px var(--gpui-font-family-main);
+  --gpui-font-text-md-bold: var(--gpui-font-weight-bold) 16px/24px var(--gpui-font-family-main);
+
+  --gpui-font-text-sm-regular: var(--gpui-font-weight-regular) 14px/20px var(--gpui-font-family-main);
+  --gpui-font-text-sm-medium: var(--gpui-font-weight-medium) 14px/20px var(--gpui-font-family-main);
+  --gpui-font-text-sm-semibold: var(--gpui-font-weight-semibold) 14px/20px var(--gpui-font-family-main);
+  --gpui-font-text-sm-bold: var(--gpui-font-weight-bold) 14px/20px var(--gpui-font-family-main);
+
+  --gpui-font-text-xs-regular: var(--gpui-font-weight-regular) 12px/16px var(--gpui-font-family-main);
+  --gpui-font-text-xs-medium: var(--gpui-font-weight-medium) 12px/16px var(--gpui-font-family-main);
+  --gpui-font-text-xs-semibold: var(--gpui-font-weight-semibold) 12px/16px var(--gpui-font-family-main);
+  --gpui-font-text-xs-bold: var(--gpui-font-weight-bold) 12px/16px var(--gpui-font-family-main);
+
+  --gpui-scale-0: 0px;
+  --gpui-scale-0-25x: 1px;
+  --gpui-scale-0-50x: 2px;
+  --gpui-scale-1x: 4px;
+  --gpui-scale-2x: 8px;
+  --gpui-scale-3x: 12px;
+  --gpui-scale-4x: 16px;
+  --gpui-scale-5x: 20px;
+  --gpui-scale-6x: 24px;
+  --gpui-scale-7x: 28px;
+  --gpui-scale-8x: 32px;
+  --gpui-scale-10x: 40px;
+  --gpui-scale-11x: 44px;
+  --gpui-scale-12x: 48px;
+  --gpui-scale-14x: 56px;
+  --gpui-scale-16x: 64px;
+  --gpui-scale-20x: 80px;
+
+  --gpui-control-height-xs: 16px;
+  --gpui-control-height-sm: 24px;
+  --gpui-control-height-base: 32px;
+  --gpui-control-height-md: 40px;
+  --gpui-control-height-lg: 48px;
+  --gpui-control-height-xl: 56px;
+
+  /* --gpui-breackpoint-tablet: 743.98px;
+  --gpui-breackpoint-desktop: 1279.98px; */
+
+  /* Alias-collection */
+
+  --gpui-border-width-none: var(--gpui-scale-0); /* 0px */
+  --gpui-border-width-sm: var(--gpui-scale-0-25x); /* 1px */
+  --gpui-border-width-md: var(--gpui-scale-0-50x); /* 2px */
+  --gpui-border-width-lg: var(--gpui-scale-1x); /* 4px */
+
+  --gpui-border-radius-none: var(--gpui-scale-0); /* 0px */
+  --gpui-border-radius-sm: var(--gpui-scale-1x); /* 4px */
+  --gpui-border-radius-md: var(--gpui-scale-2x); /* 8px */
+  --gpui-border-radius-lg: var(--gpui-scale-4x); /* 16px */
+  --gpui-border-radius-xl: var(--gpui-scale-8x); /* 32px */
+  --gpui-border-radius-full: 50%;
+  --gpui-border-radius-ds: var(--gpui-scale-3x); /* 12px */
+
+  --gpui-spacing-none: var(--gpui-scale-0); /* 0px */
+  --gpui-spacing-1x: var(--gpui-scale-1x); /* 4px */
+  --gpui-spacing-2x: var(--gpui-scale-2x); /* 8px */
+  --gpui-spacing-3x: var(--gpui-scale-3x); /* 12px */
+  --gpui-spacing-4x: var(--gpui-scale-4x); /* 16px */
+  --gpui-spacing-5x: var(--gpui-scale-5x); /* 20px */
+  --gpui-spacing-6x: var(--gpui-scale-6x); /*24px*/
+  --gpui-spacing-8x: var(--gpui-scale-8x); /* 32px */
+  --gpui-spacing-10x: var(--gpui-scale-10x); /* 40px */
+  --gpui-spacing-12x: var(--gpui-scale-12x); /* 48px */
+  --gpui-spacing-16x: var(--gpui-scale-16x); /* 64px */
+  --gpui-spacing-20x: var(--gpui-scale-20x); /* 80px */
+
+  /* Mapped-collection */
+  --gpui-color-text-primary: var(--color-woodsmoke);
+  --gpui-color-text-secondary: var(--gpui-color-gray-900);
+  --gpui-color-text-tertiary: var(--gpui-color-gray-600);
+  --gpui-color-text-disabled: var(--color-gray);
+  --gpui-color-text-action: var(--gpui-color-red-600);
+  --gpui-color-text-action-hover: var(--color-aqua-blue);
+  --gpui-color-text-action-active: var(--color-green-blue);
+  --gpui-color-text-on-action: var(--gpui-color-white);
+  --gpui-color-text-error: var(--color-red);
+  --gpui-color-text-success: var(--color, lime);
+  --gpui-color-text-warning: var(--color, lime);
+  --gpui-color-text-info: var(--color, lime);
+
+  --gpui-color-icon-primary: var(--color-woodsmoke);
+  --gpui-color-icon-secondary: var(--gpui-color-gray-500);
+  --gpui-color-icon-disabled: var(--color-gray);
+  --gpui-color-icon-action: var(--color-accent-blue);
+  --gpui-color-icon-action-hover: var(--color-aqua-blue);
+  --gpui-color-icon-action-active: var(--color-green-blue);
+  --gpui-color-icon-on-action: var(--color-white);
+  --gpui-color-icon-error: var(--color-red);
+  --gpui-color-icon-success: var(--color, lime);
+  --gpui-color-icon-warning: var(--color, lime);
+  --gpui-color-icon-info: var(--color, lime);
+
+  --gpui-color-border-primary: var(--gpui-color-gray-300);
+  --gpui-color-border-action: var(--color-accent-blue);
+  --gpui-color-border-action-hover: var(--color-aqua-blue);
+  --gpui-color-border-action-active: var(--color-green-blue);
+  --gpui-color-border-success: var(--color, lime);
+  --gpui-color-border-error: var(--color-red);
+  --gpui-color-border-warning: var(--color, lime);
+  --gpui-color-border-info: var(--color, lime);
+  --gpui-color-border-disabled: var(--color-light-steel);
+
+  --gpui-color-surface-page: var(--gpui-color-gray-50);
+  --gpui-color-surface-default: var(--gpui-color-white);
+  --gpui-color-surface-secondary: var(--color-light-blue);
+  --gpui-color-surface-secondary-hover: var(--color-frost-blue);
+  --gpui-color-surface-secondary-active: var(--color-steel-gray);
+  --gpui-color-surface-tertiary: var(--neutral-100, lime);
+  --gpui-color-surface-action: var(--gpui-color-primary-600);
+  --gpui-color-surface-action-hover: var(--gpui-color-primary-700);
+  --gpui-color-surface-action-active: var(--color-green-blue);
+  --gpui-color-surface-success: var(--success-50, lime);
+  --gpui-color-surface-warning: var(--warning-50, lime);
+  --gpui-color-surface-info: var(--primary-50, lime);
+  --gpui-color-surface-error: var(--error-50, lime);
+  --gpui-color-surface-disabled: var(--color-light-smoke);
+
+  --psor-color-green-0: #ecfdf3;
+  --psor-color-green-1: #abefc6;
+  --psor-color-green-4: #067647;
+}

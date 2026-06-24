@@ -1,0 +1,26 @@
+.rootLayout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  padding: var(--gpui-spacing-6x);
+  border: 1px solid green;
+  gap: var(--gpui-spacing-6x);
+  min-height: 100vh;
+}
+
+.rightPart {
+  display: flex;
+  flex-direction: column;
+  border: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
+  border-radius: var(--gpui-border-radius-lg);
+  background-color: var(--gpui-color-surface-page);
+}
+
+.main {
+  heiht: 100%;
+  padding: var(--gpui-spacing-6x);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
