@@ -1,0 +1,36 @@
+.rootMenuItem {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--gpui-border-radius-ds);
+  background-color: var(--gpui-color-surface-page);
+  height: var(--gpui-control-height-md);
+  padding: var(--gpui-spacing-none) var(--gpui-spacing-3x);
+}
+
+.divider {
+  margin: var(--gpui-spacing-4x) var(--gpui-spacing-none);
+  border-top: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: var(--gpui-spacing-2x);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  /* color: var(--gpui-color-text-secondary); */
+  color: gray;
+}
+
+.title {
+  font: var(--gpui-font-text-sm-semibold);
+  color: var(--gpui-color-text-secondary);
+}
+
+.menuTitle {
+  font: var(--gpui-font-text-sm-semibold);
+  color: var(--gpui-color-text-tertiary);
+}

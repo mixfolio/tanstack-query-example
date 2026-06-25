@@ -1,0 +1,4 @@
+.rootMenu {
+  display: flex;
+  flex-direction: column;
+}

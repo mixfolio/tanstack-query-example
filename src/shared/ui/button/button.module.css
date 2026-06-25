@@ -1,0 +1,11 @@
+.rootBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--gpui-control-height-md);
+  color: var(--gpui-color-text-on-action);
+  background-color: var(--gpui-color-surface-action);
+  border-radius: var(--gpui-border-radius-ds);
+  padding: var(--gpui-spacing-none) var(--gpui-spacing-4x);
+  font: var(--gpui-font-text-md-medium);
+}

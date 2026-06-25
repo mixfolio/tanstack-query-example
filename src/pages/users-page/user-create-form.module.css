@@ -1,0 +1,28 @@
+.rootCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gpui-spacing-6x);
+  border-radius: 24px;
+  padding: var(--gpui-spacing-8x);
+  width: 448px;
+  border: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
+  background-color: var(--gpui-color-surface-default);
+}
+
+.cardTitle {
+  color: var(--gpui-color-text-primary);
+  font: var(--gpui-font-display-xs-semibold);
+  text-align: center;
+}
+
+.cardSubtitle {
+  color: var(--gpui-color-text-tertiary);
+  font: var(--gpui-font-text-md-regular);
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gpui-spacing-6x);
+}

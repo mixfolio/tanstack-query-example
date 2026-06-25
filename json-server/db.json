@@ -1,12 +1,46 @@
 {
   "posts": [
-    { "id": "1", "title": "Название поста 1", "views": 100 },
-    { "id": "2", "title": "Название поста 2", "views": 200 },
-    { "id": "2", "title": "Название поста 3", "views": 300 }
+    {
+      "id": "1",
+      "title": "Название поста 1",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "Название поста 2",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "Название поста 3",
+      "views": 300
+    }
   ],
   "users": [
-    { "id": "1", "username": "Вася", "age": 41 },
-    { "id": "2", "username": "Алексей", "age": 44 },
-    { "id": "2", "username": "Jason", "age": 56 }
+    {
+      "id": "1",
+      "username": "Вася",
+      "age": 41
+    },
+    {
+      "id": "2",
+      "username": "Алексей",
+      "age": 44
+    },
+    {
+      "id": "3",
+      "username": "Jason",
+      "age": 56
+    },
+    {
+      "username": "Семен",
+      "age": 32,
+      "id": "MX35HhB"
+    },
+    {
+      "username": "Анна",
+      "age": 32,
+      "id": "HQzRXdI"
+    }
   ]
 }

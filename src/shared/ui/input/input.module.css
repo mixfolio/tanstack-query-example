@@ -1,0 +1,6 @@
+.rootInput {
+  border: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
+  border-radius: var(--gpui-border-radius-ds);
+  height: var(--gpui-control-height-md);
+  padding: var(--gpui-spacing-none) var(--gpui-spacing-4x);
+}

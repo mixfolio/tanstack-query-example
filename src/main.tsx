@@ -7,12 +7,20 @@ import { UsersPage } from "./pages/users-page/users-page";
 import { PostDetailsPage } from "./pages/post-details-page/post-details-page";
 import { PostsPage } from "./pages/posts-page/posts-page";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
-const queryClient = new QueryClient();
+const queryClient = new QueryClient({
+  // defaultOptions: {
+  //   queries: {
+  //     staleTime: 1000 * 60 * 5,
+  //   },
+  // },
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <QueryClientProvider client={queryClient}>
+      <ReactQueryDevtools initialIsOpen={false} />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>

@@ -13,10 +13,16 @@
   border: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
   border-radius: var(--gpui-border-radius-lg);
   background-color: var(--gpui-color-surface-page);
+  overflow: hidden;
 }
 
 .main {
   heiht: 100%;
+  padding: var(--gpui-spacing-6x);
+}
+
+.header {
+  background-color: var(--gpui-color-gray-100);
   padding: var(--gpui-spacing-6x);
 }
 
