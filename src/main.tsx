@@ -8,6 +8,7 @@ import { PostDetailsPage } from "./pages/post-details-page/post-details-page";
 import { PostsPage } from "./pages/posts-page/posts-page";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import { HomePage } from "./pages/home-page/home-page";
 
 const queryClient = new QueryClient({
   // defaultOptions: {
@@ -24,6 +25,7 @@ createRoot(document.getElementById("root")!).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
+            <Route index element={<HomePage />} />
             <Route path="/users" element={<UsersPage />} />
             <Route path="/posts" element={<PostsPage />} />
             <Route path="/posts/:id" element={<PostDetailsPage />} />

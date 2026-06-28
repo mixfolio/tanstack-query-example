@@ -1,18 +1,24 @@
-import { useState } from "react";
-import styles from "./user-create-form.module.css";
+import { useEffect, useState } from "react";
+import styles from "./users-create-form.module.css";
 import { Button, Input } from "../../shared/ui";
 import { useCreateUserMutation } from "../../hooks/users/usersMutations";
 
 export const UsersCreateForm = () => {
   const [username, setUsername] = useState("");
   const [age, setAge] = useState("");
-  const isLoading = false;
 
   const createUserMutation = useCreateUserMutation();
   const onHandleCreateUser = () => {
     if (!username || !age) return;
     createUserMutation.mutate({ username, age: Number(age) });
   };
+
+  useEffect(() => {
+    if (createUserMutation.isSuccess) {
+      setUsername("");
+      setAge("");
+    }
+  }, [createUserMutation.isSuccess]);
 
   return (
     <div className={styles.rootCard}>
@@ -36,7 +42,10 @@ export const UsersCreateForm = () => {
           onChange={(e) => setAge(e.target.value)}
         />
 
-        <Button loading={isLoading} onClick={onHandleCreateUser}>
+        <Button
+          loading={createUserMutation.isPending}
+          onClick={onHandleCreateUser}
+        >
           Создать
         </Button>
       </div>

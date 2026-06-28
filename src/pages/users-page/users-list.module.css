@@ -1,0 +1,25 @@
+.rootList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gpui-spacing-4x);
+}
+
+.title {
+  font: var(--gpui-font-text-xl-medium);
+}
+
+.subtitle {
+  font: var(--gpui-font-text-lg-regular);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gpui-spacing-1x);
+  width: 640px;
+}
+
+.pagination {
+  display: flex;
+  gap: var(--gpui-spacing-1x);
+}

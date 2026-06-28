@@ -18,19 +18,9 @@
   ],
   "users": [
     {
-      "id": "1",
-      "username": "Вася",
-      "age": 41
-    },
-    {
       "id": "2",
       "username": "Алексей",
       "age": 44
-    },
-    {
-      "id": "3",
-      "username": "Jason",
-      "age": 56
     },
     {
       "username": "Семен",
@@ -41,6 +31,86 @@
       "username": "Анна",
       "age": 32,
       "id": "HQzRXdI"
+    },
+    {
+      "username": "Константин",
+      "age": 23,
+      "id": "F6BLcX8"
+    },
+    {
+      "username": "Валентин",
+      "age": 44,
+      "id": "VBk-ylE"
+    },
+    {
+      "username": "Ольга",
+      "age": 45,
+      "id": "eh4YQ2e"
+    },
+    {
+      "username": "Михаил",
+      "age": 52,
+      "id": "_-nA0Qv"
+    },
+    {
+      "username": "Лариса",
+      "age": 26,
+      "id": "MzQR6NX"
+    },
+    {
+      "username": "Денис",
+      "age": 47,
+      "id": "yFMxRFI"
+    },
+    {
+      "username": "Петр",
+      "age": 28,
+      "id": "VpmPv30"
+    },
+    {
+      "username": "Иван",
+      "age": 25,
+      "id": "4e2LdHq"
+    },
+    {
+      "username": "Харитон",
+      "age": 42,
+      "id": "2km7mEu"
+    },
+    {
+      "username": "Светлана",
+      "age": 33,
+      "id": "IORalOp"
+    },
+    {
+      "username": "Мария",
+      "age": 33,
+      "id": "uDKm1Pk"
+    },
+    {
+      "username": "Вилен",
+      "age": 42,
+      "id": "VxJh4Mq"
+    },
+    {
+      "username": "Вячеслав",
+      "age": 26,
+      "id": "ZEJZNua"
+    },
+    {
+      "username": "Леонид",
+      "age": 36,
+      "id": "Z7gznx8"
+    },
+    {
+      "username": "Елена",
+      "age": 58,
+      "id": "tV3lrK0"
+    },
+    {
+      "username": "Евгений",
+      "age": 34,
+      "id": "XE7F-UP"
     }
   ]
 }

@@ -4,10 +4,11 @@
 import { Suspense } from "react";
 import styles from "./layout.module.css";
 import { NavLink, Outlet } from "react-router";
-import { useIsFetching } from "@tanstack/react-query";
+import { useIsFetching, useIsMutating } from "@tanstack/react-query";
 
 const Layout = () => {
   const isFetching = useIsFetching();
+  const isMutating = useIsMutating();
   return (
     <div className={styles.rootLayout}>
       {/* <Sidebar /> */}
@@ -23,7 +24,9 @@ const Layout = () => {
           style={{
             backgroundColor: isFetching
               ? "var(--gpui-color-surface-action)"
-              : "",
+              : isMutating
+                ? "var(--gpui-color-surface-info)"
+                : "",
           }}
         >
           Header

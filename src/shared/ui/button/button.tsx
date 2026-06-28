@@ -12,7 +12,7 @@ interface ButtonProps extends React.DetailedHTMLProps<
 
 export const Button: FC<ButtonProps> = ({ children, loading, ...props }) => {
   return (
-    <button className={styles.rootBtn} {...props}>
+    <button disabled={loading} className={styles.rootBtn} {...props}>
       {children} {loading && " Загрузка"}
     </button>
   );

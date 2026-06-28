@@ -7,7 +7,14 @@ export type User = {
 };
 
 export const usersApi = {
-  getUsers: () => api.get<User[]>("/users").then((res) => res.data),
+  getUsers: ({ page, limit }: { page: number; limit: number }) =>
+    api
+      .get<User[]>("/users", { params: { _page: page, _limit: limit } })
+      .then((res) => {
+        const data = res.data;
+        const total: number = res.headers["x-total-count"] ?? 0;
+        return { data, total };
+      }),
   createUser: (user: Omit<User, "id">) =>
     api.post<User>("/users", user).then((res) => res.data),
   updateUser: (user: User) =>

@@ -4,7 +4,7 @@ import styles from "./users-page.module.css";
 
 export const UsersPage = () => {
   return (
-    <div className={styles.page}>
+    <div className={styles.rootPage}>
       <UsersCreateForm />
       <UsersList />
     </div>

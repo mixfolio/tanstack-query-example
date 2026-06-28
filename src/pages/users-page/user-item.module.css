@@ -1,0 +1,9 @@
+.cardItem {
+  display: flex;
+  align-items: center;
+  padding: var(--gpui-spacing-2x) var(--gpui-spacing-6x);
+  gap: var(--gpui-spacing-6x);
+  border: var(--gpui-border-width-sm) solid var(--gpui-color-border-primary);
+  background-color: var(--gpui-color-surface-default);
+  border-radius: var(--gpui-border-radius-md);
+}
